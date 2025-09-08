@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+/* NEON TEXT EFFECT */
+.neon-text {
+  animation: neon 1.5s ease-in-out infinite alternate;
+}
+
+@keyframes neon {
+  from {
+    text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #f43f5e, 0 0 20px #f43f5e;
+  }
+  to {
+    text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #f43f5e, 0 0 40px #f43f5e;
+  }
+}
+
+/* CUSTOM SCROLLBAR */
+::-webkit-scrollbar {
+  width: 8px;
+}
+
+::-webkit-scrollbar-track {
+  background: #fecdd3;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #f43f5e;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #e11d48;
+}
+
+/* BUTTON FIXES - iOS Friendly */
+button {
+  appearance: none;
+  -webkit-appearance: none;
+  -webkit-tap-highlight-color: transparent;
+  position: relative;
+  overflow: hidden;
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+/* GRADIENT BACKGROUND FIX */
+/* .bg-gradient-to-r {
+  background-clip: padding-box;
+} */
+
+/* BUTTON TEXT LAYERING */
+.button-text {
+  position: relative;
+  z-index: 1;
+}
+
+/* SAFARI VIDEO TRANSFORM FIX */
+video {
+  transform: translateZ(0);
+  -webkit-transform: translateZ(0);
+}
+
+/* SAFARI 3D FIX */
+@supports (-webkit-touch-callout: none) {
+  .motion-div-fix {
+    transform-style: preserve-3d;
+  }
+}
