@@ -11,7 +11,7 @@ const BackgroundMusic = () => {
         const iframe = iframeRef.current;
         try {
           // Mengubah parameter mute pada URL
-          iframe.src = `https://www.youtube.com/embed/Y3eFGpL1q7M?autoplay=1&loop=1&playlist=Y3eFGpL1q7M&enablejsapi=1&${isMusicPlaying ? 'mute=0' : 'mute=1'}`;
+          iframe.src = `https://www.youtube.com/embed/kygrxgKPLCo?autoplay=1&loop=1&playlist=kygrxgKPLCo&enablejsapi=1&${isMusicPlaying ? 'mute=0' : 'mute=1'}`;
         } catch (error) {
           console.log('Error updating audio:', error);
         }
@@ -40,7 +40,7 @@ const BackgroundMusic = () => {
           ref={iframeRef}
           width="1"
           height="1"
-          src={`https://www.youtube.com/embed/Y3eFGpL1q7M?autoplay=1&loop=1&playlist=Y3eFGpL1q7M&enablejsapi=1&mute=0`}
+          src={`https://www.youtube.com/embed/kygrxgKPLCo?autoplay=1&loop=1&playlist=kygrxgKPLCo&enablejsapi=1&mute=0`}
           title="Background Music"
           frameBorder="0"
           allow="autoplay; encrypted-media"
