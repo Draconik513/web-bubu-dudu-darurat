@@ -1,26 +1,29 @@
-import { motion, AnimatePresence } from 'framer-motion'
-import { useState } from 'react'
-import vidioWishes from '../assets/videos/Wishes.mp4'
+import { motion, AnimatePresence } from "framer-motion";
+import { useState } from "react";
+import vidioWishes from "../assets/videos/Wishes.mp4";
 
 const SpecialWishes = ({ isIOS }) => {
-  const [showHeart, setShowHeart] = useState(false)
+  const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-haiii sayanggg! 🙋🏻‍♀️💕 aku gatau harus mulai cerpen panjang ini darimana sayang hihi ^_^
+Hari ini adalah hari spesial... karena orang terspesial di hidup aku lahir hari ini 💗
 
-aku mau ucapin.. selamat ulangtahun 🥳🎂 dan selamat bertumbuh jauh lebih baik 🌱 sayanganku kecintaanku 💖, panjang umur, a wish for u on ur birthday 🎁✨, whatever u ask may u receive 🙏🏻, whatever u seek may u find 🌟, whatever u wish may it be fulfilled on ur birthday 🎉 and together, i hope u will walk on this journey knowing that u belong babe 🤍
+Terima kasih udah hadir di hidup aku sayangg 😍
 
-i hope even if things sometime do not go ur way 🚧, u will stop trying, u will not give up on urself 💪🏻 and on ur thoughest days, i hope u will reminding your self of this word:
-"u deserve better ✨, kamu layak dicintai 💕 dan dirayakan dalam hal apapun!!"
+Semoga ulang tahun kali ini bikin kamu tambah bahagia, sehat selalu, sukses buat kedepan nyaa dan makin sayang sama aku kalau bisa selamaa nyaa 😋
 
-aku sangat berharap dan berdoa untuk kamu 🙏🏻, mudah mudahan kamu terus diberi kesehatan 🩵, semoga semesta selalu memberimu kemudahan atas segala usahamu 🌌, semoga doamu selalu terkabul satu persatu 🌠, semoga langkah kakimu selalu diringankan 🚶🏻‍♂️, semoga pundakmu dikuatkan 🛡️, semoga segala urusanmu dipermudah 🌿, semoga hatimu dilapangkan 🕊️ atas segala takdir yang di luar rencanamu, dan semoga kamu selalu dikelilingi orang-orang baik di mana pun kamu berada 🌍 sayangkuu.
+Dan semoga setiap langkah kmu penuh keberkahan, dan setiap impianmu satu per satu menjadi kenyataan. Kamu punya hati yang tulus, senyum yang menenangkan, dan jiwa yang baik, Dunia butuh lebih banyak orang sepertimu. Jadi jangan pernah ngerasa sendiri apalagi nyerah 🫂
 
-semangat berproses lelaki baikku 🫶🏻🔥!! step by step yaa, nikmati anak tangganya satu persatu 🪜, kamu ga lagi balapan sama siapapun dalam hidup ini 🏁🚫. so, enjoy ur process 🌷. apapun yang lagi kamu usahakan, semoga selalu dilancarkan 💗✨
+Aku pengen kamu tau kalau aku percaya sama kamu sepenuhnya. Kamu kuat, kamu hebat, dan kamu pantas dapetin yang terbaik, jangan pernah ngeraguin dirimu sendiri, kamu itu cahaya dalam hidup banyak orang, termasuk hidup akuu sendiri 🥺
 
-nanti setelah kamu selesai berproses dan mencapai semua targetmu 🏆, semoga aku masih menjadi perempuan yang kamu inginkan yaa 🫂🤍
+kalau suatu hari kamu ngerasa ragu atau takut, ingat doa aku ini ”Semoga kamu selalu dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus dari semua arah.Termasuk dariku 💝”
 
-aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you 💐" ketika kamu berhasil meraih mimpi ituu 👮🏻‍♂️🚓.
-  `
+Jangan lupa tetep jadi kamu yang manis, ngeselin tapi ngangenin, dan selalu bikin aku jatuh cinta tiap hari 🤭
+
+Aku bersyukur banget punya kamu. i love u revan sayangg 🫶🏻
+
+dari qilaa pacar kesayangan kamuu <3
+  `;
 
   return (
     <div className="min-h-screen bg-gradient-to-b from-pink-100 to-purple-100 p-4 flex flex-col items-center justify-center">
@@ -33,12 +36,12 @@ aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you
         <h1 className="text-4xl font-bold text-center text-pink-600 mb-8">
           Pesan Spesial Untukmu
         </h1>
-        
+
         <div className="mb-8">
-          <video 
-            autoPlay 
-            loop 
-            muted 
+          <video
+            autoPlay
+            loop
+            muted
             playsInline
             webkit-playsinline="true"
             x-webkit-airplay="allow"
@@ -53,7 +56,7 @@ aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you
           className="bg-white bg-opacity-80 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8"
         >
           <div className="prose max-w-none">
-            {wishes.split('\n').map((paragraph, i) => (
+            {wishes.split("\n").map((paragraph, i) => (
               <p key={i} className="text-pink-800 mb-4 text-lg leading-relaxed">
                 {paragraph}
               </p>
@@ -69,7 +72,7 @@ aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you
             className="relative overflow-hidden bg-pink-500 text-white px-6 py-3 rounded-full shadow-lg"
           >
             <span className="button-text">
-              {showHeart ? 'Sembunyikan Cintaku' : 'Lihat Cintaku'}
+              {showHeart ? "Sembunyikan Cintaku" : "Lihat Cintaku"}
             </span>
           </motion.button>
         </div>
@@ -87,11 +90,9 @@ aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you
                 animate={{ scale: [1, 1.1, 1], opacity: [0.9, 1, 0.9] }}
                 transition={{ duration: 2, repeat: Infinity }}
               >
-                <div className="text-[12rem] select-none text-center">
-                  ❤️
-                </div>
+                <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Hendry 💖
+                  Revan 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   Hanya kamu di hatiku, sayang 🥹
@@ -102,7 +103,7 @@ aku akan jadi orang yang paling keras teriak "congrats 🥳🎊 and proud of you
         </AnimatePresence>
       </motion.div>
     </div>
-  )
-}
+  );
+};
 
-export default SpecialWishes
+export default SpecialWishes;

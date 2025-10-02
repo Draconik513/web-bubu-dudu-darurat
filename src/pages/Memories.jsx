@@ -34,7 +34,7 @@ const Memories = ({ isIOS }) => {
           className="bg-white bg-opacity-90 backdrop-blur-sm p-6 rounded-xl shadow-lg mb-8 border border-pink-100"
         >
           <h2 className="text-2xl font-semibold text-rose-600 mb-4">
-            🚨🚨🚨
+            Permintaan maafku di hari ulang tahunmu
           </h2>
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
@@ -46,25 +46,28 @@ const Memories = ({ isIOS }) => {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              I may not be able to remind you every day 🕊️, but please enjoy
-              your meal at least once a day 🍽️. I know you are busy 🗂️, but
-              please take good care of yourself 🤍.
+              Maaf ya, Sayang... 💕 Maaf kalau selama ini aku pernah cuek,
+              terlalu sibuk, atau kurang peka sama perasaanmu. Aku gak pernah
+              ada niat nyakitin kamu, semua itu karena aku manusia biasa yang
+              masih belajar mencintaimu dengan lebih baik dari yang
+              sebelum-sebelumnya 🥺💗
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Pat yourself on the back whenever you feel sad 💭💪. Call me if
-              you need me 📞💕.
+              Makasii udah selalu sabar, masih mau tetep sama aku 🌸
+              Pertengkaran pasti ada dan aku harap kamu gak pernah ngelepasin
+              aku gitu aja cuma karena masalah yang masih bisa kita atasin
+              sama-sama 🤝✨
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              No matter what happens, just remember 🌸 you're my sweet boy 🥰
-              and I'll always love you through anything and everything 💗✨
+              Maaf ya yang 🫶 dan makasih karena kamu tetap percaya sama aku 🥹💖
             </motion.p>
           </div>
         </motion.div>
