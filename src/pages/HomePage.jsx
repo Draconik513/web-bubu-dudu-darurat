@@ -58,7 +58,7 @@ const HomePage = ({ isIOS }) => {
           className="space-y-6"
         >
           <h2 className="text-3xl font-bold text-pink-600">
-            Selamat Ulang Tahun Sayang !
+            Selamat Ulang Tahun aa !
           </h2>
           <p className="text-xl text-pink-600">🎉 4 Oktober 2025 🎉</p>
 
