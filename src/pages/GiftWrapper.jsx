@@ -15,7 +15,7 @@ const GiftWrapper = () => {
   // Check if countdown is finished (August 10, 2025)
   useEffect(() => {
     const checkCountdown = () => {
-      const targetDate = new Date('2025-10-03T00:00:00')
+      const targetDate = new Date('2025-10-05T00:00:00')
       const now = new Date()
       if (now >= targetDate) {
         setCountdownFinished(true)
@@ -124,7 +124,7 @@ const GiftWrapper = () => {
             exit={{ opacity: 0 }}
             className="mt-4 p-4 bg-white rounded-lg shadow-md max-w-md text-center"
           >
-            <p className="text-pink-600">Hadiah belum bisa dibuka sampai '3 Oktober 2025!</p>
+            <p className="text-pink-600">Hadiah belum bisa dibuka sampai 4 Oktober 2025!</p>
             <p className="text-sm text-gray-500 mt-2">Tunggu sampai hari ulang tahun tiba ❤️</p>
           </motion.div>
         )}
@@ -133,7 +133,7 @@ const GiftWrapper = () => {
       {!countdownFinished && (
         <div className="mt-8 p-4 bg-white bg-opacity-80 rounded-lg shadow-md max-w-md text-center">
           <p className="text-pink-600">Hadiah ini terkunci sampai:</p>
-          <p className="text-xl font-bold text-purple-600">3 Oktober 2025</p>
+          <p className="text-xl font-bold text-purple-600">4 Oktober 2025</p>
         </div>
       )}
     </div>

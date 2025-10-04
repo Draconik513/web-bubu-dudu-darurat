@@ -39,35 +39,39 @@ const Memories = ({ isIOS }) => {
 
           <div className="text-left text-pink-800 space-y-4 leading-relaxed">
             <p>
-              💌 <strong>For my favorite person...</strong>
+              💌 <strong>Untuk Aa tersayang...</strong>
             </p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 0.6 }}
             >
-              Maaf ya, Sayang... 💕 Maaf kalau selama ini aku pernah cuek,
-              terlalu sibuk, atau kurang peka sama perasaanmu. Aku gak pernah
-              ada niat nyakitin kamu, semua itu karena aku manusia biasa yang
-              masih belajar mencintaimu dengan lebih baik dari yang
-              sebelum-sebelumnya 🥺💗
+              🌟 Maafkan aku Aa, jika selama ini ada salah kata atau sikap yang
+              membuatmu terluka. Di hari spesialmu ini aku hanya ingin melihat
+              senyum bahagiamu. 🌟
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.2 }}
             >
-              Makasii udah selalu sabar, masih mau tetep sama aku 🌸
-              Pertengkaran pasti ada dan aku harap kamu gak pernah ngelepasin
-              aku gitu aja cuma karena masalah yang masih bisa kita atasin
-              sama-sama 🤝✨
+              Terima kasih karena selalu sabar dan setia menemani. Semoga tahun
+              ini membawa kebahagiaan, kesehatan, dan keberkahan untukmu. 💫
             </motion.p>
             <motion.p
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 1, delay: 1.8 }}
             >
-              Maaf ya yang 🫶 dan makasih karena kamu tetap percaya sama aku 🥹💖
+              Aku sayang Aa selalu 💖
+            </motion.p>
+            <motion.p
+              initial={{ opacity: 0, y: 20 }}
+              animate={{ opacity: 1, y: 0 }}
+              transition={{ duration: 1, delay: 2.4 }}
+            >
+              💖 Dengan penuh cinta,
+              <strong>[Adi Yusuf Maulana]</strong>
             </motion.p>
           </div>
         </motion.div>

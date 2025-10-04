@@ -6,23 +6,12 @@ const SpecialWishes = ({ isIOS }) => {
   const [showHeart, setShowHeart] = useState(false);
 
   const wishes = `
-Hari ini adalah hari spesial... karena orang terspesial di hidup aku lahir hari ini 💗
-
-Terima kasih udah hadir di hidup aku sayangg 😍
-
-Semoga ulang tahun kali ini bikin kamu tambah bahagia, sehat selalu, sukses buat kedepan nyaa dan makin sayang sama aku kalau bisa selamaa nyaa 😋
-
-Dan semoga setiap langkah kmu penuh keberkahan, dan setiap impianmu satu per satu menjadi kenyataan. Kamu punya hati yang tulus, senyum yang menenangkan, dan jiwa yang baik, Dunia butuh lebih banyak orang sepertimu. Jadi jangan pernah ngerasa sendiri apalagi nyerah 🫂
-
-Aku pengen kamu tau kalau aku percaya sama kamu sepenuhnya. Kamu kuat, kamu hebat, dan kamu pantas dapetin yang terbaik, jangan pernah ngeraguin dirimu sendiri, kamu itu cahaya dalam hidup banyak orang, termasuk hidup akuu sendiri 🥺
-
-kalau suatu hari kamu ngerasa ragu atau takut, ingat doa aku ini ”Semoga kamu selalu dikelilingi orang-orang baik, rezeki yang cukup, dan cinta yang tulus dari semua arah.Termasuk dariku 💝”
-
-Jangan lupa tetep jadi kamu yang manis, ngeselin tapi ngangenin, dan selalu bikin aku jatuh cinta tiap hari 🤭
-
-Aku bersyukur banget punya kamu. i love u revan sayangg 🫶🏻
-
-dari qilaa pacar kesayangan kamuu <3
+🎉 Selamat Ulang Tahun ke-28, Aa! 🎂
+🌟 Di usia yang baru ini,setiap langkah Aa selalu diberkahi kebahagiaan, kesehatan, dan kesuksesan. Semua impian yang selama ini Aa perjuangkan perlahan satu per satu menjadi nyata.
+Terima kasih telah menjadi sosok yang selalu menginspirasi dengan ketulusan dan kebaikan hati.
+Nikmati setiap detik hari istimewa ini dengan senyuman yang paling indah! 💫
+💙 Dengan penuh kasih,
+Adi Yusuf Maulana
   `;
 
   return (
@@ -92,7 +81,7 @@ dari qilaa pacar kesayangan kamuu <3
               >
                 <div className="text-[12rem] select-none text-center">❤️</div>
                 <div className="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 text-white text-3xl font-bold drop-shadow-lg">
-                  Revan 💖
+                  Wihendra Subekhi 💖
                 </div>
                 <div className="text-white text-lg text-center mt-4">
                   Hanya kamu di hatiku, sayang 🥹
